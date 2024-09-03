@@ -251,7 +251,7 @@
 <h1 id="results-b3--page-root">Benchmark Report<a class="headerlink" href="#results-b3--page-root" title="Link to this heading">¶</a></h1>
 <section id="configuration">
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Link to this heading">¶</a></h2>
-<p>Length of signals: 256</p>
+<p>Length of signals: 512</p>
 <p>Repetitions: 2000</p>
 <p>SNRin values:
 -5,
@@ -294,136 +294,92 @@
 </thead>
 <tbody>
 <tr class="row-even"><td class="text-right"><p>0</p></td>
-<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs’, ‘pnorm’: 2, ‘rmax’: 0.5, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.05</p></td>
-<td class="text-left"><p>[0.03408778607739561, 0.061607678233856863]</p></td>
-<td class="text-left"><p>0.07</p></td>
-<td class="text-left"><p>[0.05600391982237366, 0.08953211292379541]</p></td>
-<td class="text-left"><p>0.14</p></td>
-<td class="text-left"><p>[0.12091953056228809, 0.166185424380332]</p></td>
-<td class="text-left"><p>0.29</p></td>
-<td class="text-left"><p>[0.2569727056908276, 0.3152860551378023]</p></td>
+<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs’, ‘pnorm’: 2, ‘rmax’: 1.0, ‘MC_reps’: 199}</p></td>
+<td class="text-left"><p>0.08</p></td>
+<td class="text-left"><p>[0.06294474393355283, 0.09634036099998586]</p></td>
+<td class="text-left"><p>0.23</p></td>
+<td class="text-left"><p>[0.20381024657772212, 0.2556484708354592]</p></td>
+<td class="text-left"><p>0.80</p></td>
+<td class="text-left"><p>[0.7760692669792932, 0.8253067219351014]</p></td>
+<td class="text-left"><p><strong>1.00</strong></p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 <tr class="row-odd"><td class="text-right"><p>1</p></td>
-<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs_vs’, ‘pnorm’: 2, ‘rmax’: 0.5, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.04</p></td>
-<td class="text-left"><p>[0.03280063867938058, 0.05990472035613704]</p></td>
-<td class="text-left"><p>0.07</p></td>
-<td class="text-left"><p>[0.05511364756442988, 0.08842862381291723]</p></td>
-<td class="text-left"><p>0.14</p></td>
-<td class="text-left"><p>[0.11673083178372515, 0.1614010409934802]</p></td>
-<td class="text-left"><p>0.28</p></td>
-<td class="text-left"><p>[0.25262430462965285, 0.3106609351798971]</p></td>
+<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs_vs’, ‘pnorm’: 2, ‘rmax’: 1.0, ‘MC_reps’: 199}</p></td>
+<td class="text-left"><p>0.09</p></td>
+<td class="text-left"><p>[0.07518358752587762, 0.11102532006475854]</p></td>
+<td class="text-left"><p>0.42</p></td>
+<td class="text-left"><p>[0.389326067920035, 0.4501064058824887]</p></td>
+<td class="text-left"><p>0.99</p></td>
+<td class="text-left"><p>[0.9855053962451639, 0.9967239286984421]</p></td>
+<td class="text-left"><p>1.00</p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 <tr class="row-even"><td class="text-right"><p>2</p></td>
-<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs’, ‘pnorm’: 2, ‘rmax’: 1.0, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.06</p></td>
-<td class="text-left"><p>[0.043634474010662894, 0.07398979108465421]</p></td>
-<td class="text-left"><p>0.17</p></td>
-<td class="text-left"><p>[0.14385061095847732, 0.19210828161654694]</p></td>
-<td class="text-left"><p>0.65</p></td>
-<td class="text-left"><p>[0.6147177676929926, 0.6764260031263913]</p></td>
+<td class="text-left"><p>global_mad_test{‘statistic’: ‘Frs’, ‘MC_reps’: 199}</p></td>
+<td class="text-left"><p>0.07</p></td>
+<td class="text-left"><p>[0.0579978437822965, 0.09031861026355505]</p></td>
+<td class="text-left"><p>0.23</p></td>
+<td class="text-left"><p>[0.20285239718734577, 0.2546117321367867]</p></td>
+<td class="text-left"><p>0.78</p></td>
+<td class="text-left"><p>[0.752132138685581, 0.8033685431910484]</p></td>
 <td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9957996834086311, 0.9999989572472981]</p></td>
+<td class="text-left"><p>[0.9950834594109376, 0.9999593811598169]</p></td>
 </tr>
 <tr class="row-odd"><td class="text-right"><p>3</p></td>
-<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs_vs’, ‘pnorm’: 2, ‘rmax’: 1.0, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.07</p></td>
-<td class="text-left"><p>[0.058680270025744344, 0.09283709464778611]</p></td>
-<td class="text-left"><p>0.27</p></td>
-<td class="text-left"><p>[0.2449026502843833, 0.30242967707679647]</p></td>
-<td class="text-left"><p>0.94</p></td>
-<td class="text-left"><p>[0.9193233291959855, 0.9510904753825143]</p></td>
-<td class="text-left"><p><strong>1.00</strong></p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
+<td class="text-left"><p>global_mad_test{‘statistic’: ‘Frs_vs’, ‘MC_reps’: 199}</p></td>
+<td class="text-left"><p>0.08</p></td>
+<td class="text-left"><p>[0.0683683760344625, 0.1028827463126732]</p></td>
+<td class="text-left"><p>0.42</p></td>
+<td class="text-left"><p>[0.38636455923031837, 0.44708403665044105]</p></td>
+<td class="text-left"><p>1.00</p></td>
+<td class="text-left"><p>[0.9925995608600826, 0.9995180801888705]</p></td>
+<td class="text-left"><p>1.00</p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 <tr class="row-even"><td class="text-right"><p>4</p></td>
-<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs’, ‘pnorm’: 2, ‘rmax’: 2.0, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.06</p></td>
-<td class="text-left"><p>[0.045388069833279865, 0.07622345590881945]</p></td>
-<td class="text-left"><p>0.17</p></td>
-<td class="text-left"><p>[0.14761297498523956, 0.19632213670030374]</p></td>
-<td class="text-left"><p>0.65</p></td>
-<td class="text-left"><p>[0.6182766931970344, 0.6798465298299077]</p></td>
+<td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’}</p></td>
+<td class="text-left"><p>0.08</p></td>
+<td class="text-left"><p>[0.06474962391810417, 0.09852413028533728]</p></td>
+<td class="text-left"><p>0.31</p></td>
+<td class="text-left"><p>[0.2859011255104852, 0.3430988321966205]</p></td>
+<td class="text-left"><p>0.99</p></td>
+<td class="text-left"><p>[0.9828739566151742, 0.995381519322813]</p></td>
 <td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 <tr class="row-odd"><td class="text-right"><p>5</p></td>
-<td class="text-left"><p>monte_carlo_test{‘statistic’: ‘Frs_vs’, ‘pnorm’: 2, ‘rmax’: 2.0, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.07</p></td>
-<td class="text-left"><p>[0.057787248515858966, 0.09173633114059485]</p></td>
-<td class="text-left"><p>0.27</p></td>
-<td class="text-left"><p>[0.24586723063890928, 0.30345920977439234]</p></td>
-<td class="text-left"><p>0.94</p></td>
-<td class="text-left"><p>[0.9221044421055651, 0.9532935531385791]</p></td>
+<td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’, ‘rmin’: 0.65, ‘rmax’: 1.05}</p></td>
+<td class="text-left"><p>0.11</p></td>
+<td class="text-left"><p>[0.09306114054257923, 0.1320390387897332]</p></td>
+<td class="text-left"><p><strong>0.49</strong></p></td>
+<td class="text-left"><p>[0.45974287827962157, 0.521308151703563]</p></td>
+<td class="text-left"><p><strong>1.00</strong></p></td>
+<td class="text-left"><p>[0.9933907795064663, 0.9997058658558212]</p></td>
 <td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 <tr class="row-even"><td class="text-right"><p>6</p></td>
-<td class="text-left"><p>global_mad_test{‘statistic’: ‘Frs’, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.06</p></td>
-<td class="text-left"><p>[0.04188594312126731, 0.07175111643687537]</p></td>
-<td class="text-left"><p>0.16</p></td>
-<td class="text-left"><p>[0.13587213987423347, 0.18313734354814887]</p></td>
-<td class="text-left"><p>0.65</p></td>
-<td class="text-left"><p>[0.6137012609546371, 0.6754483803583481]</p></td>
+<td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’, ‘transform’: ‘asin(sqrt(.))’}</p></td>
+<td class="text-left"><p>0.07</p></td>
+<td class="text-left"><p>[0.057549386249048484, 0.08976992836887947]</p></td>
+<td class="text-left"><p>0.31</p></td>
+<td class="text-left"><p>[0.2824970632553394, 0.33952174762562476]</p></td>
+<td class="text-left"><p>0.99</p></td>
+<td class="text-left"><p>[0.986852101505932, 0.9973619484812459]</p></td>
 <td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 <tr class="row-odd"><td class="text-right"><p>7</p></td>
-<td class="text-left"><p>global_mad_test{‘statistic’: ‘Frs_vs’, ‘MC_reps’: 2499}</p></td>
-<td class="text-left"><p>0.07</p></td>
-<td class="text-left"><p>[0.05156227607601528, 0.08400503713822019]</p></td>
-<td class="text-left"><p>0.27</p></td>
-<td class="text-left"><p>[0.23960070712984216, 0.2967640038080416]</p></td>
-<td class="text-left"><p>0.96</p></td>
-<td class="text-left"><p>[0.9475233543288794, 0.9727276991749221]</p></td>
-<td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
-</tr>
-<tr class="row-even"><td class="text-right"><p>8</p></td>
-<td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’}</p></td>
-<td class="text-left"><p>0.07</p></td>
-<td class="text-left"><p>[0.050676963130907436, 0.08289663396264627]</p></td>
-<td class="text-left"><p>0.20</p></td>
-<td class="text-left"><p>[0.1726539278046843, 0.2241239935402423]</p></td>
-<td class="text-left"><p>0.91</p></td>
-<td class="text-left"><p>[0.8880286589109359, 0.9255617217298336]</p></td>
-<td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
-</tr>
-<tr class="row-odd"><td class="text-right"><p>9</p></td>
-<td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’, ‘rmin’: 0.65, ‘rmax’: 1.05}</p></td>
-<td class="text-left"><p><strong>0.09</strong></p></td>
-<td class="text-left"><p>[0.07262599393584322, 0.10979585642915272]</p></td>
-<td class="text-left"><p><strong>0.34</strong></p></td>
-<td class="text-left"><p>[0.30648952124630247, 0.3674694645149031]</p></td>
-<td class="text-left"><p><strong>0.97</strong></p></td>
-<td class="text-left"><p>[0.961504266155051, 0.9826616114846701]</p></td>
-<td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
-</tr>
-<tr class="row-even"><td class="text-right"><p>10</p></td>
-<td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’, ‘transform’: ‘asin(sqrt(.))’}</p></td>
-<td class="text-left"><p>0.06</p></td>
-<td class="text-left"><p>[0.048027445684091556, 0.07956506496636143]</p></td>
-<td class="text-left"><p>0.20</p></td>
-<td class="text-left"><p>[0.1764498766900309, 0.2283043640738132]</p></td>
-<td class="text-left"><p>0.91</p></td>
-<td class="text-left"><p>[0.8847703398052715, 0.922838354376715]</p></td>
-<td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
-</tr>
-<tr class="row-odd"><td class="text-right"><p>11</p></td>
 <td class="text-left"><p>global_rank_env_test{‘fun’: ‘Fest’, ‘correction’: ‘rs’, ‘rmin’: 0.65, ‘rmax’: 1.05, ‘transform’: ‘asin(sqrt(.))’}</p></td>
-<td class="text-left"><p>0.09</p></td>
-<td class="text-left"><p>[0.07262599393584322, 0.10979585642915272]</p></td>
-<td class="text-left"><p>0.34</p></td>
-<td class="text-left"><p>[0.3055146509043328, 0.36645020805903705]</p></td>
-<td class="text-left"><p>0.97</p></td>
-<td class="text-left"><p>[0.9591439738570933, 0.9810367117104591]</p></td>
+<td class="text-left"><p><strong>0.11</strong></p></td>
+<td class="text-left"><p>[0.09536760075570051, 0.13471872357094103]</p></td>
+<td class="text-left"><p>0.49</p></td>
+<td class="text-left"><p>[0.45775081301420545, 0.5193109601803044]</p></td>
 <td class="text-left"><p>1.00</p></td>
-<td class="text-left"><p>[0.9969178665037335, 1.0]</p></td>
+<td class="text-left"><p>[0.9925995608600826, 0.9995180801888705]</p></td>
+<td class="text-left"><p>1.00</p></td>
+<td class="text-left"><p>[0.9971199946972821, 1.0]</p></td>
 </tr>
 </tbody>
 </table>
